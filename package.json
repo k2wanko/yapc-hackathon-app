@@ -18,5 +18,10 @@
   "bugs": {
     "url": "https://github.com/k2wanko/yapc-hackathon-app/issues"
   },
-  "homepage": "https://github.com/k2wanko/yapc-hackathon-app#readme"
+  "homepage": "https://github.com/k2wanko/yapc-hackathon-app#readme",
+  "devDependencies": {
+    "coffee-script": "^1.9.3",
+    "gulp": "^3.9.0",
+    "gulp-load-plugins": "^0.10.0"
+  }
 }
