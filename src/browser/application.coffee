@@ -15,5 +15,5 @@ class Application
   openWindow: ->
     htmlURL = "file://#{__dirname}/../main-window/index.html"
     @window = new ApplicationWindow htmlURL,
-      width: 1200,
-      height: 800
+      width: 300,
+      height: 400

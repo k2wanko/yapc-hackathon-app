@@ -3,10 +3,25 @@
   <head>
     <title>Sample</title>
     <meta http-equiv="Content-Security-Policy" content="default-src *; script-src 'self'; style-src 'self' 'unsafe-inline';">
-    <!-- <link rel="stylesheet" href="index.less" media="screen" title="no title" charset="utf-8"> -->
-    <!-- <script src="./index.coffee"></script> -->
+    <link rel="stylesheet" href="index.less" media="screen" title="no title" charset="utf-8">
+    <script src="index.coffee"></script>
   </head>
   <body tabindex="-1">
-    <h1>Hello World</h1>
+    <form id="login" action="#" class="">
+      <p>email: </p><input id="email" name="" type="text" value=""/><br/>
+      <p>password: </p><input id="password" name="" type="password" value=""/><br/>
+      <input name="" type="submit" value="login"/>
+    </form>
+    <div id="container" class="hide">
+      <form id="live_id_form" action="#">
+        <span>Live ID: </span><input id="live_id" name="" type="text" value=""/>
+      </form>
+      <ul id="comment_list" style="list-style-type: none;overflow-y:scroll;"></ul>
+      <form id="comment_form" action="#">
+        <span>Comment: </span>
+        <input id="comment" name="" type="text" value=""/>
+        <input name="" type="submit" value="Submit"/>
+      </form>
+    </div>
   </body>
   </html>
