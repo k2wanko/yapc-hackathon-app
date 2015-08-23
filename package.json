@@ -1,0 +1,22 @@
+{
+  "name": "yapc-hackathon-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/k2wanko/yapc-hackathon-app.git"
+  },
+  "author": "k2wanko <k2.wanko@gmail.com>",
+  "license": {
+    "type": "MIT",
+    "url": "http://k2wanko.mit-license.org/"
+  },
+  "bugs": {
+    "url": "https://github.com/k2wanko/yapc-hackathon-app/issues"
+  },
+  "homepage": "https://github.com/k2wanko/yapc-hackathon-app#readme"
+}
